@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+/* body {
+    height: 100%;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+.jump:hover {
+    transform: translateY(-1.75px);
+}
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+/* body {
+    background-image: url('https://img.freepik.com/premium-photo/3d-illustration-rendering-facebook-logo-color-blue-background_489925-73.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+@tailwind utilities;

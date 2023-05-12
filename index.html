@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        .jump:hover {
+            transform: translateY(-1.5px);
+        }
+    </style> -->
+</head>
+<body class="bg-gray-100 flex justify-between flex-col h-[100vh]">
+    <nav class="bg-white shadow-md flex items-center md:justify-between">
+        <img src="fblogo.png" alt="fblogo" class="w-10 h-10 mx-4">
+        <ul class="flex justify-center md:justify-end">
+            <li class="mx-2 p-3 hover:underline underline-offset-4 cursor-pointer jump">Home</li>
+            <li class="mx-2 p-3 hover:underline underline-offset-4 cursor-pointer jump">About</li>
+            <li class="mx-2 p-3 hover:underline underline-offset-4 cursor-pointer jump">Contact Us</li>
+        </ul>
+    </nav>
+
+    <div class="container1 w-full h-[450px] main flex flex-col items-center mt-20 md:justify-center md:flex-row md:mt-28">
+        <div class="flex flex-col justify-center">
+            <div class="text-5xl font-semibold text-blue-600 w-80">facebook</div>
+            <div class="font-sans text-lg w-80 mt-3"><p>Facebook helps you connect and share with the people in your life</p></div>
+        </div>
+        <div class="right flex flex-col">
+            <div class="flex flex-col bg-white w-80 h-80 justify-center p-3 shadow-md rounded-md mt-4 md:mt-0 md:mx-7 items-center">
+                <input type="text" placeholder="Email address or phone number" class="m-2 w-72 px-2 border-gray-400 border-2 rounded-md h-10">
+                <input type="password" placeholder="Password" class="m-2 w-72 px-2 border-gray-400 border-2 rounded-md h-10">
+                <button class="btn m-2 bg-blue-500 rounded-md text-white h-10 w-72 text-lg font-semibold hover:text-blue-600 hover:bg-white border-blue-500 border-2">Log In</button>
+                <a href="#" class="mt-2 text-blue-600 hover:underline">Forgotten password?</a>
+                <div class="mt-4 border-b-[1px] border-b-gray-400 w-72 h-1"></div>
+                <button class="mt-4 p-2 bg-green-500 text-white rounded-md font-semibold">Create New Account</button>
+            </div>
+            <div>
+                <p class="text-sm text-center mt-5"><span class="font-semibold">Create a Page</span> for a celebrity, brand or business</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-white shadow-md border-t-2 h-20 w-full lg:mt-4 flex items-center justify-center font-thin text-lg mt-14">
+        Copyright &copy; Facebook 1998-2023
+    </footer>
+</body>
+</html>
